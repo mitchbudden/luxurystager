@@ -1,0 +1,37 @@
+.nav-outer {
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    width: 100%;
+    box-shadow: 2px 2px #3182bd;
+}
+
+.nav-img-container {
+    width: 30%;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 50%;
+}
+
+.nav-item {
+    font-size: 22px;
+    width: 33%;
+    font-weight: 400;
+    padding: 5%;
+    margin: 5%;
+    color: #3182bd;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.logo-nav {
+    width: 15em;
+    height: 15em;
+    margin-right: -2em;
+    margin-top: -3em;
+    margin-bottom: -6em;
+}
