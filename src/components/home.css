@@ -1,0 +1,25 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.home-description {
+    color: black;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.home-picture-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.display-image {
+    height: 30em;
+    width: 40em;
+    margin: 2em;
+}

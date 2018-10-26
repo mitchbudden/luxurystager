@@ -1,9 +1,22 @@
+@keyframes green-spinning {
+    0% {
+        background-color: #3182bd;
+    }
+
+    50% {
+        background-color: #9ecae1;        
+    }
+    
+    100% { 
+        background-color: #deebf7;        
+    }
+  }
+
 .nav-outer {
     display: flex;
     flex-direction: row;
     height: 5%;
     width: 100%;
-    box-shadow: 2px 2px #3182bd;
 }
 
 .nav-img-container {
@@ -21,17 +34,35 @@
     font-size: 22px;
     width: 33%;
     font-weight: 400;
-    padding: 5%;
-    margin: 5%;
+    padding: 8%;
+    margin: 1%;
     color: #3182bd;
     text-decoration: none;
     font-family: 'Cinzel', serif;
 }
 
+.selected-nav-item {
+    font-size: 22px;
+    width: 33%;
+    font-weight: 400;
+    padding: 8%;
+    margin: 1%;
+    color: #9ecae1;
+    background-color: #3182bd;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    background-color: #deebf7;
+    animation: green-spinning 0.2s 0s 1;
+}
+
 .logo-nav {
-    width: 15em;
-    height: 15em;
+    width: 17.5em;
+    height: 17.5em;
     margin-right: -2em;
-    margin-top: -3em;
+    margin-top: -2.5em;
     margin-bottom: -6em;
 }
