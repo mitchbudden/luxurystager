@@ -6,6 +6,10 @@ import Yacht from "./components/yacht.jsx";
 import Contact from "./components/contact.jsx";
 import About from "./components/about.jsx";
 import { Provider } from 'react-redux';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faPhone, faEnvelope);
 
 ReactDOM.render(
   <Provider>

@@ -1,10 +1,6 @@
 @keyframes green-spinning {
     0% {
-        background-color: #3182bd;
-    }
-
-    50% {
-        background-color: #9ecae1;        
+        background-color: white;
     }
     
     100% { 
@@ -31,10 +27,13 @@
 }
 
 .nav-item {
-    font-size: 22px;
-    width: 33%;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
     font-weight: 400;
-    padding: 8%;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 1%;
     color: #3182bd;
     text-decoration: none;
@@ -47,7 +46,7 @@
     font-weight: 400;
     padding: 8%;
     margin: 1%;
-    color: #9ecae1;
+    color: white;
     background-color: #3182bd;
     text-decoration: none;
     font-family: 'Cinzel', serif;
@@ -56,7 +55,7 @@
 .nav-item:hover {
     text-decoration: none;
     background-color: #deebf7;
-    animation: green-spinning 0.2s 0s 1;
+    animation: green-spinning 0.7s 0s 1;
 }
 
 .logo-nav {

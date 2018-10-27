@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Nav from './nav'
+import Nav from './nav';
+import Footer from './footer';
 
 class Contact extends Component {
 
@@ -8,6 +9,7 @@ class Contact extends Component {
       <div>
         <Nav selected="Contact"/>
         <h1>Contact</h1>
+        <Footer />
       </div>);
   }
 }
