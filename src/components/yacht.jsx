@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
-import './home.css';
+import './yacht.css';
 
 class Yacht extends Component {
 
@@ -9,20 +9,25 @@ class Yacht extends Component {
     return (
       <div>
         <Nav selected="Yachts"/>
-        <div className="home-page-container">
-          <div className="home-picture-group">
-            <img src="https://images.unsplash.com/photo-1535024966840-e7424dc2635b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=80653ca536107e70be9eeefd3f0bb912&auto=format&fit=crop&w=633&q=80" 
+        <div className="yachts-banner">
+          <div className="yachts-description-container">
+            <h1 className="yachts-banner-description">Stage It - Sell It</h1>
+          </div>
+        </div>
+        <div className="yacht-page-container">
+          <div className="yacht-picture-group">
+            <img src="http://www.yachtinteriorsociety.com/uploads/1/0/9/5/109521393/gt50-interior-yacht-interior-society_orig.jpg" 
                 className="display-image"
                 alt="before"/>
-            <img src="https://images.unsplash.com/photo-1495279957139-3a9a3773ea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ebf56fc316f62522c610b73c722fd3df&auto=format&fit=crop&w=700&q=80" 
+            <img src="https://nautique.tv/wp-content/uploads/2015/08/sws-102-interior-2015-2.jpg" 
                 className="display-image"
                 alt="after"/>
           </div>
-          <div className="home-picture-group">
-            <img src="https://images.unsplash.com/photo-1503200653465-b0a95c5c9816?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e34cc8c8904d2e6131d281f2939ffa87&auto=format&fit=crop&w=1350&q=80" 
+          <div className="yacht-picture-group">
+            <img src="http://newyachtinteriors.com/wp-content/uploads/2017/03/Princess-64-Yacht-Interior-Design-03.jpg" 
                 className="display-image"
                 alt="before"/>
-            <img src="https://images.unsplash.com/photo-1534232566443-dda0b5043f47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a977709880bc6bdd984de69b376ed90f&auto=format&fit=crop&w=968&q=80" 
+            <img src="https://www.superyachtfan.com/wpimages/wp4161f6fa_01_1a.jpg" 
                 className="display-image"
                 alt="after"/>
           </div>

@@ -9,10 +9,32 @@ class About extends Component {
     return (
       <div>
         <Nav selected="About"/>
-        <h1 className="about-description">This is some information about Luxe Staging. This paragraph is just a nonsense
-          that I'm using to format the page. This website was made by Mitch Budden. It is for
-          the company Luxe Staging which is for homes and yachts in floria.
-        </h1>
+        <div className="text-group">
+          <h1 className="about-description-bold">Stage it – Sell it.</h1>
+        </div>
+        <div className="text-group">
+          <h1 className="about-description">Carolyn Birger, President of Luxe Staging, is a certified staging professional,  a member of the International Yacht Brokers Association, as well as the Real Estate Staging Association. Our goal is to assist brokers by transforming interiors and exterieros to reflect a warm, fresh environment that buyers will want to experience.
+          At Luxe Staging, we help owners transform their properties to stand out from others by drawing attention to the fine craftsmanship and décor of the property.  It is proven that when staged properly, it will sell 83% faster and the seller will receive an average of 20% more money.
+          Luxe Staging will redesign interiors with existing furnishings, artwork and accessories to highlight the yachts architecture, OR we will bring in our own inventory to set the stage for a quick sale.  The longer a home or yacht is listed for sale, the less money received. 
+          </h1>
+        </div>
+        <div className="text-group">
+          <h1 className="about-description-bold">Our Services:</h1>
+          <div className="services-flex">
+            <div className="services-group">
+              <h1 className="services-description">DIY Consult</h1>
+              <h1 className="services-description">Consultations are designed to give the owners all the information they need to stage their home or yacht themselves.</h1>
+            </div>
+            <div className="services-group">
+              <h1 className="services-description">Lived In Staging</h1>
+              <h1 className="services-description">Owners live in the property for sale. Luxe will rearrange what is there.</h1>
+            </div>
+            <div className="services-group">
+              <h1 className="services-description">Vacant Staging</h1>
+              <h1 className="services-description">The yacht or home is empty and Luxe will provide furniture and accessories.</h1>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
       );

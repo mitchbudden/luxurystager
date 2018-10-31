@@ -1,8 +1,47 @@
+.text-group {
+    margin: 2%;
+    padding: 1%;
+}
+
 .about-description {
     color: black;
     font-family: 'Biryani', sans-serif;
-    margin: 5%;
-    padding: 5%;
+    margin: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 22px;    
-    line-height: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.about-description-bold {
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    margin: 1%;
+    background-color: #deebf7;
+    font-size: 24px;    
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-description {
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    font-size: 22px;    
+    line-height: 40px;
+    text-align: center;
+    padding: 5%;
+}
+
+.services-group {
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid #deebf7;
+    width: 33%;
 }

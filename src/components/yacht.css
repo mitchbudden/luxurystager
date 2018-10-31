@@ -1,10 +1,10 @@
-.homes-banner {
+.yachts-banner {
     background: 
     linear-gradient(
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("https://www.impressiveinteriordesign.com/wp-content/uploads/2016/01/Wallpaper-Interior-Design-Pictures-And-How-To-Choose-One-10.jpg") no-repeat center center fixed;
+    url("https://www.lawsonrobb.com/wp-content/uploads/2015/02/superyacht_interior_design_stern-2400x1368.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,11 +13,11 @@
     width: 100%;
 }
 
-.homes-description-container {
+.yachts-description-container {
     padding: 7% 0% 0% 30%;
 }
 
-.homes-banner-description {
+.yachts-banner-description {
     font-family: 'Cinzel', serif;
     line-height: 75px;
     text-align: center;
@@ -26,14 +26,14 @@
     width: 500px;
 }
 
-.home-page-container {
+.yachts-page-container {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
     margin-right: 2%;
 }
 
-.home-description {
+.yachts-description {
     color: black;
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
@@ -41,7 +41,7 @@
     margin: 0;
 }
 
-.home-picture-group {
+.yachts-picture-group {
     display: flex;
     flex-direction: row;
 }

@@ -8,7 +8,6 @@ class Contact extends Component {
     return (
       <div>
         <Nav selected="Contact"/>
-        <h1>Contact</h1>
         <Footer />
       </div>);
   }
