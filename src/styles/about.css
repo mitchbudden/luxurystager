@@ -45,3 +45,18 @@
     border: 2px solid #deebf7;
     width: 33%;
 }
+
+
+@media (max-width: 768px) { 
+    .services-flex {
+        flex-direction: column;
+    }
+
+    .services-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+}

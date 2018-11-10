@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './nav.css';
+import '../styles/nav.css';
 import logo from '../winner logo.svg';
 
 class Nav extends Component {

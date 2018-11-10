@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
-import './home.css';
+import '../styles/home.css';
 
 class Home extends Component {
 
@@ -28,6 +28,14 @@ class Home extends Component {
                 className="display-image"
                 alt="before"/>
             <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ba2b9dcc1af593a7d93ed9b4ed952ac&auto=format&fit=crop&w=500&q=60" 
+                className="display-image"
+                alt="after"/>
+          </div>
+          <div className="home-picture-group">
+            <img src="https://images.unsplash.com/photo-1499955085172-a104c9463ece?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1c30274d56662166fdafd604140d2df4&auto=format&fit=crop&w=500&q=60" 
+                className="display-image"
+                alt="before"/>
+            <img src="https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=750&q=80" 
                 className="display-image"
                 alt="after"/>
           </div>

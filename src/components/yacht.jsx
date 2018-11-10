@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
-import './yacht.css';
+import '../styles/yacht.css';
 
 class Yacht extends Component {
 

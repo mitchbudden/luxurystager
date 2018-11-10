@@ -1,4 +1,4 @@
-@keyframes green-spinning {
+@keyframes blue-low-light {
     0% {
         background-color: white;
     }
@@ -27,13 +27,13 @@
 }
 
 .nav-item {
+    display: flex;
+    align-self: center;
+    justify-content: center;    
+    line-height: 5em;
     font-size: 20px;
-    text-align: center;
     width: 25%;
     font-weight: 400;
-    padding-top: 8%;
-    padding-left: 5%;
-    padding-right: 5%;
     margin: 1%;
     color: #3182bd;
     text-decoration: none;
@@ -41,10 +41,13 @@
 }
 
 .selected-nav-item {
+    display: flex;
+    align-self: center;    
+    justify-content: center;
     font-size: 22px;
-    width: 33%;
+    line-height: 5em;    
+    width: 25%;
     font-weight: 400;
-    padding: 8%;
     margin: 1%;
     color: white;
     background-color: #3182bd;
@@ -55,7 +58,7 @@
 .nav-item:hover {
     text-decoration: none;
     background-color: #deebf7;
-    animation: green-spinning 0.7s 0s 1;
+    animation: blue-low-light 0.7s 0s 1;
 }
 
 .logo-nav {
@@ -64,4 +67,38 @@
     margin-right: -2em;
     margin-top: -2.5em;
     margin-bottom: -6em;
+}
+
+
+@media (max-width: 768px) { 
+    .nav-outer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-group {
+        width: 100%;
+    }
+
+    .nav-item {
+        line-height: 3em;
+        font-size: 16px;
+    }
+
+    .selected-nav-item {
+        line-height: 3em;
+        font-size: 16px;
+    }
+
+    .logo-nav {
+        width: 10em;
+        height: 10em;
+        margin-right: -2em;
+        margin-top: -1.5em;
+        margin-bottom: -3em;
+    }
+}
+
+@media (max-width: 480px) {
+
 }

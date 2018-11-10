@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
-import './about.css';
+import '../styles/about.css';
 
 class About extends Component {
 
