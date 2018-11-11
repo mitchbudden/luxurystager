@@ -9,7 +9,7 @@ class Footer extends Component {
     <div className="footer-container">
       <div className="contact-container">
         <FontAwesomeIcon size="2x" icon="phone" />
-        <h1 className="contact-item">248-766-2678</h1>
+        <h1 className="contact-item">248-961-1900</h1>
       </div>
       <div className="contact-container">
         <FontAwesomeIcon size="2x" icon="envelope" />

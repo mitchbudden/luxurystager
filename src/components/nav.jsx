@@ -8,7 +8,7 @@ class Nav extends Component {
     return (
     <div className="nav-outer">
         <div className="nav-img-container">
-          <img src={logo} className="logo-nav" alt="Luxe Staging"/>
+          <a href="/contact"><img src={logo} className="logo-nav" alt="Luxe Staging"/></a>
         </div>
         <div className="nav-group">
           <a href="/" 

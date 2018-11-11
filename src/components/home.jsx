@@ -11,6 +11,7 @@ class Home extends Component {
         <Nav selected="Homes"/>
         <div className="homes-banner">
           <div className="homes-description-container">
+            <h1 className="homes-banner-description">Luxe Staging LLC</h1>            
             <h1 className="homes-banner-description">Stage It - Sell It</h1>
           </div>
         </div>

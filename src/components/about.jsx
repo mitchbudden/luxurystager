@@ -22,15 +22,15 @@ class About extends Component {
           <h1 className="about-description-bold">Our Services:</h1>
           <div className="services-flex">
             <div className="services-group">
-              <h1 className="services-description">DIY Consult</h1>
+              <h1 className="services-description services-bold">DIY Consult</h1>
               <h1 className="services-description">Consultations are designed to give the owners all the information they need to stage their home or yacht themselves.</h1>
             </div>
             <div className="services-group">
-              <h1 className="services-description">Lived In Staging</h1>
+              <h1 className="services-description services-bold">Lived In Staging</h1>
               <h1 className="services-description">Owners live in the property for sale. Luxe will rearrange what is there.</h1>
             </div>
             <div className="services-group">
-              <h1 className="services-description">Vacant Staging</h1>
+              <h1 className="services-description services-bold">Vacant Staging</h1>
               <h1 className="services-description">The yacht or home is empty and Luxe will provide furniture and accessories.</h1>
             </div>
           </div>

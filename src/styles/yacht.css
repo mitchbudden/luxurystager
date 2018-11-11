@@ -64,7 +64,7 @@
     }
 
     .yachts-description-container {
-        padding: 15% 0% 0% 15%;
+        padding: 10% 0% 0% 15%;
     }
 
     .yachts-banner-description {
@@ -84,7 +84,7 @@
 @media (max-width: 480px) {
 
     .yachts-description-container {
-        padding: 15% 0% 0% -10%;
+        padding: 10% 0% 0% -10%;
     }
 
     .yachts-banner-description {

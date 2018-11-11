@@ -36,7 +36,11 @@
     font-size: 22px;    
     line-height: 40px;
     text-align: center;
-    padding: 5%;
+    padding: 4%;
+}
+
+.services-bold {
+    text-decoration: underline;
 }
 
 .services-group {
