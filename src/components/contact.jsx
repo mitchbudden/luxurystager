@@ -9,8 +9,8 @@ class Contact extends Component {
     return (
       <div>
         <Nav selected="Contact"/>
-        <h1 className="contact-info">We want to work with you to sell your home or yacht. 
-          <br/>Please reach out using any of the methods listed below.</h1>
+        <h1 className="contact-info">We are committed to helping you sell your property faster, for more money. 
+        Please reach out using any of the methods listed below. </h1>
         <Footer />
       </div>);
   }

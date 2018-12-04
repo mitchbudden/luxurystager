@@ -11,7 +11,7 @@ class Yacht extends Component {
         <Nav selected="Yachts"/>
         <div className="yachts-banner">
           <div className="yachts-description-container">
-            <h1 className="homes-banner-description">Luxe Staging LLC</h1>
+            <h1 className="homes-banner-description">Luxe Staging</h1>
             <h1 className="yachts-banner-description">Stage It - Sell It</h1>
           </div>
         </div>

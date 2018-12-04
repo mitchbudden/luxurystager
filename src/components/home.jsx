@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/home.css';
+import living from '../living-room.jpg';
+import chair from '../chair.jpg';
+import staircase from '../staircase.jpg';
 
 class Home extends Component {
 
@@ -11,7 +14,7 @@ class Home extends Component {
         <Nav selected="Homes"/>
         <div className="homes-banner">
           <div className="homes-description-container">
-            <h1 className="homes-banner-description">Luxe Staging LLC</h1>            
+            <h1 className="homes-banner-description">Luxe Staging</h1>            
             <h1 className="homes-banner-description">Stage It - Sell It</h1>
           </div>
         </div>
@@ -20,23 +23,15 @@ class Home extends Component {
             <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5952432c3b70cfedf523282f5895f009&auto=format&fit=crop&w=500&q=60" 
                 className="display-image"
                 alt="before"/>
-            <img src="https://images.unsplash.com/photo-1521782462922-9318be1cfd04?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5631d58afa6fa483935e464b52248995&auto=format&fit=crop&w=500&q=60" 
+            <img src={living} 
                 className="display-image"
                 alt="after"/>
           </div>
           <div className="home-picture-group">
-            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7eb3cf84fa5988885f62b3ee0dfac1fe&auto=format&fit=crop&w=500&q=60" 
+            <img src={chair} 
                 className="display-image"
                 alt="before"/>
-            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ba2b9dcc1af593a7d93ed9b4ed952ac&auto=format&fit=crop&w=500&q=60" 
-                className="display-image"
-                alt="after"/>
-          </div>
-          <div className="home-picture-group">
-            <img src="https://images.unsplash.com/photo-1499955085172-a104c9463ece?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1c30274d56662166fdafd604140d2df4&auto=format&fit=crop&w=500&q=60" 
-                className="display-image"
-                alt="before"/>
-            <img src="https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=750&q=80" 
+            <img src={staircase}
                 className="display-image"
                 alt="after"/>
           </div>
