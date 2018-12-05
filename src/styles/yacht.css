@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("https://www.lawsonrobb.com/wp-content/uploads/2015/02/superyacht_interior_design_stern-2400x1368.jpg") no-repeat center center fixed;
+    url("../yacht-banner.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +59,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("https://www.lawsonrobb.com/wp-content/uploads/2015/02/superyacht_interior_design_stern-2400x1368.jpg") 80% 40%;
+        url("../yacht-banner.jpg") 80% 40%;
         height: 20em;
     }
 

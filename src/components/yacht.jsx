@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/yacht.css';
+import yachtOne from '../yacht-1.jpg';
+import yachtTwo from '../yacht-2.jpg';
+import yachtThree from '../yacht-3.jpg';
+import yachtFour from '../yacht-4.webp';
 
 class Yacht extends Component {
 
@@ -17,18 +21,18 @@ class Yacht extends Component {
         </div>
         <div className="yacht-page-container">
           <div className="yacht-picture-group">
-            <img src="http://www.yachtinteriorsociety.com/uploads/1/0/9/5/109521393/gt50-interior-yacht-interior-society_orig.jpg" 
+            <img src={yachtOne}
                 className="display-image"
                 alt="before"/>
-            <img src="https://nautique.tv/wp-content/uploads/2015/08/sws-102-interior-2015-2.jpg" 
+            <img src={yachtTwo}
                 className="display-image"
                 alt="after"/>
           </div>
           <div className="yacht-picture-group">
-            <img src="http://newyachtinteriors.com/wp-content/uploads/2017/03/Princess-64-Yacht-Interior-Design-03.jpg" 
+            <img src={yachtThree}
                 className="display-image"
                 alt="before"/>
-            <img src="https://www.superyachtfan.com/wpimages/wp4161f6fa_01_1a.jpg" 
+            <img src={yachtFour} 
                 className="display-image"
                 alt="after"/>
           </div>

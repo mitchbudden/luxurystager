@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("https://marketplace.canva.com/MAC3UhBosXg/1/screen/canva-kitchen%2C-real-estate%2C-interior-design%2C-architecture-MAC3UhBosXg.jpg") no-repeat center center fixed;
+    url("../home-banner.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +59,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("https://marketplace.canva.com/MAC3UhBosXg/1/screen/canva-kitchen%2C-real-estate%2C-interior-design%2C-architecture-MAC3UhBosXg.jpg") 10% 65%;
+        url("../home-banner.jpg") 10% 65%;
         height: 20em;
     }
 
