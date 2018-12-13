@@ -1,3 +1,31 @@
+.about-banner {
+    background: 
+    linear-gradient(
+      rgba(1, 13, 22, 0.60), 
+      rgba(1, 13, 22, 0.60)
+    ),
+    url("../images/staircase.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30em;
+    width: 100%;
+}
+
+.about-description-container {
+    padding: 7% 0% 0% 30%;
+}
+
+.about-banner-description {
+    font-family: 'Cinzel', serif;
+    line-height: 75px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    width: 500px;
+}
+
 .text-group {
     margin: 2%;
     padding: 1%;
@@ -18,8 +46,8 @@
     color: black;
     font-family: 'Biryani', sans-serif;
     margin: 1%;
-    background-color: #deebf7;
-    font-size: 24px;    
+    background-color: #9ecae1;
+    font-size: 32px;    
     line-height: 100px;
     text-align: center;
     font-weight: bold;
@@ -46,8 +74,13 @@
 .services-group {
     margin: 1%;
     padding: 1%;
-    border: 2px solid #deebf7;
+    border: 5px solid #9ecae1;
+    background-color: #9ecae1;
     width: 33%;
+}
+
+.services-group:hover {
+    background-color: white;
 }
 
 
@@ -58,10 +91,37 @@
 
     .services-group {
         width: 100%;
+        background-color: white;
+    }
+
+    .about-banner {
+        background: 
+        linear-gradient(
+          rgba(1, 13, 22, 0.60), 
+          rgba(1, 13, 22, 0.60)
+        ),
+        url("../images/staircase.jpg") 70% 70%;
+        height: 20em;
+    }
+
+    .about-description-container {
+        padding: 10% 0% 0% 15%;
+    }
+
+    .about-banner-description {
+        font-size: 32px;
     }
 }
 
 @media (max-width: 480px) {
+    .about-description-container {
+        padding: 20% 30%;
+    }
+
+    .about-banner-description {
+        text-align: left;
+    }
+
     .about-description {
         font-size: 18px;
         padding-left: 2%;

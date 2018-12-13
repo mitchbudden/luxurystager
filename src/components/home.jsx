@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/home.css';
-import living from '../living-room.jpg';
-import chair from '../chair.jpg';
-import staircase from '../staircase.jpg';
+import living from '../images/living-room.jpg'
+import chair from '../images/chair.jpg';
+import staircase from '../images/staircase.jpg';
 
 class Home extends Component {
 

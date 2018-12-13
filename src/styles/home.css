@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("../home-banner.jpg") no-repeat center center fixed;
+    url("../images/home-banner.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 .display-image {
-    height: 30em;
+    height: 23em;
     width: 45%;
     margin: 5%;
 }
@@ -59,7 +59,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("../home-banner.jpg") 10% 65%;
+        url("../images/home-banner.jpg") 10% 65%;
         height: 20em;
     }
 

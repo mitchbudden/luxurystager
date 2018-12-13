@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/yacht.css';
-import yachtOne from '../yacht-1.jpg';
-import yachtTwo from '../yacht-2.jpg';
-import yachtThree from '../yacht-3.jpg';
-import yachtFour from '../yacht-4.webp';
+import yachtOne from '../images/yacht-1.jpg';
+import yachtTwo from '../images/yacht-2.jpg';
+import yachtThree from '../images/yacht-3.jpg';
 
 class Yacht extends Component {
 
@@ -32,7 +31,7 @@ class Yacht extends Component {
             <img src={yachtThree}
                 className="display-image"
                 alt="before"/>
-            <img src={yachtFour} 
+            <img src="https://www.superyachtfan.com/wpimages/wp4161f6fa_01_1a.jpg"  
                 className="display-image"
                 alt="after"/>
           </div>

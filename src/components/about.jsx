@@ -9,8 +9,10 @@ class About extends Component {
     return (
       <div>
         <Nav selected="About"/>
-        <div className="text-group">
-          <h1 className="about-description-bold">Stage it – Sell it.</h1>
+        <div className="about-banner">
+          <div className="about-description-container">
+            <h1 className="about-banner-description">About Us</h1>
+          </div>
         </div>
         <div className="text-group">
           <h1 className="about-description">Carolyn Birger, President of Luxe Staging, is a certified staging professional,  a member of the International Yacht Brokers Association, as well as the Real Estate Staging Association. Our goal is to assist brokers by transforming interiors and exterieros to reflect a warm, fresh environment that buyers will want to experience.
