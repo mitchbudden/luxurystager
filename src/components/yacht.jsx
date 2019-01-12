@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/yacht.css';
-import yachtOne from '../images/yacht-1.jpg';
-import yachtTwo from '../images/yacht-2.jpg';
-import yachtThree from '../images/yacht-3.jpg';
+import yachtBeforeOne from '../images/luxe/yacht-before-1.jpeg';
+import yachtAfterOne from '../images/luxe/yacht-after-1.jpeg';
+import yachtZoom from '../images/luxe/yacht-zoom-1.jpeg';
 
 class Yacht extends Component {
 
@@ -20,20 +20,17 @@ class Yacht extends Component {
         </div>
         <div className="yacht-page-container">
           <div className="yacht-picture-group">
-            <img src={yachtOne}
+            <img src={yachtBeforeOne}
                 className="display-image"
                 alt="before"/>
-            <img src={yachtTwo}
+            <img src={yachtAfterOne}
                 className="display-image"
                 alt="after"/>
           </div>
           <div className="yacht-picture-group">
-            <img src={yachtThree}
+            <img src={yachtZoom}
                 className="display-image"
                 alt="before"/>
-            <img src="https://www.superyachtfan.com/wpimages/wp4161f6fa_01_1a.jpg"  
-                className="display-image"
-                alt="after"/>
           </div>
         </div>
         <Footer />

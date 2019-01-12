@@ -2,9 +2,12 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/home.css';
-import living from '../images/living-room.jpg'
-import chair from '../images/chair.jpg';
-import staircase from '../images/staircase.jpg';
+import homeBeforeOne from '../images/luxe/home-before-1.jpeg';
+import homeBeforeTwo from '../images/luxe/home-before-2.jpeg';
+import homeBeforeThree from '../images/luxe/home-before-3.jpeg';
+import homeAfterOne from '../images/luxe/home-after-1.jpeg';
+import homeAfterTwo from '../images/luxe/home-after-2.jpeg';
+import homeAfterThree from '../images/luxe/home-after-3.jpeg';
 
 class Home extends Component {
 
@@ -20,18 +23,26 @@ class Home extends Component {
         </div>
         <div className="home-page-container">
           <div className="home-picture-group">
-            <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5952432c3b70cfedf523282f5895f009&auto=format&fit=crop&w=500&q=60" 
+            <img src={homeBeforeThree} 
                 className="display-image"
                 alt="before"/>
-            <img src={living} 
+            <img src={homeAfterThree} 
                 className="display-image"
                 alt="after"/>
           </div>
           <div className="home-picture-group">
-            <img src={chair} 
+            <img src={homeBeforeTwo} 
                 className="display-image"
                 alt="before"/>
-            <img src={staircase}
+            <img src={homeAfterTwo}
+                className="display-image"
+                alt="after"/>
+          </div>
+          <div className="home-picture-group">
+            <img src={homeBeforeOne} 
+                className="display-image"
+                alt="before"/>
+            <img src={homeAfterOne}
                 className="display-image"
                 alt="after"/>
           </div>

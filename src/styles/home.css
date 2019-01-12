@@ -1,10 +1,10 @@
 .homes-banner {
     background: 
     linear-gradient(
-      rgba(1, 13, 22, 0.60), 
-      rgba(1, 13, 22, 0.60)
+      rgba(1, 13, 22, 0.80), 
+      rgba(1, 13, 22, 0.80)
     ),
-    url("../images/home-banner.jpg") no-repeat center center fixed;
+    url("../images/luxe/home-after-3.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,10 +56,10 @@
     .homes-banner {
         background: 
         linear-gradient(
-          rgba(1, 13, 22, 0.60), 
-          rgba(1, 13, 22, 0.60)
+          rgba(1, 13, 22, 0.8), 
+          rgba(1, 13, 22, 0.8)
         ),
-        url("../images/home-banner.jpg") 10% 65%;
+        url("../images/luxe/home-after-3.jpeg") no-repeat 100% 0% fixed;
         height: 20em;
     }
 

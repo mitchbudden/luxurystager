@@ -1,10 +1,10 @@
 .yachts-banner {
     background: 
     linear-gradient(
-      rgba(1, 13, 22, 0.60), 
-      rgba(1, 13, 22, 0.60)
+      rgba(1, 13, 22, 0.80), 
+      rgba(1, 13, 22, 0.80)
     ),
-    url("../images/yacht-banner.jpg") no-repeat center center fixed;
+    url("../images/luxe/yacht-cover.jpeg") no-repeat 0% -10% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,10 +56,10 @@
     .yachts-banner {
         background: 
         linear-gradient(
-          rgba(1, 13, 22, 0.60), 
-          rgba(1, 13, 22, 0.60)
+          rgba(1, 13, 22, 0.8), 
+          rgba(1, 13, 22, 0.8)
         ),
-        url("../images/yacht-banner.jpg") 50% 50%;
+        url("../images/luxe/yacht-cover.jpeg") no-repeat 60% 0%;
         height: 20em;
     }
 

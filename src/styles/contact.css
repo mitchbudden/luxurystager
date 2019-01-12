@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("../images/yacht-1.jpg") no-repeat center center fixed;
+    url("../images/stock/yacht-1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,7 +57,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("../images/yacht-1.jpg") 50% 50%;
+        url("../images/stock/yacht-1.jpg") 50% 50%;
         height: 20em;
     }
 
