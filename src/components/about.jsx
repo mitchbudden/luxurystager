@@ -11,7 +11,8 @@ class About extends Component {
         <Nav selected="About"/>
         <div className="about-banner">
           <div className="about-description-container">
-            <h1 className="about-banner-description">About Us</h1>
+            <h1 className="homes-banner-description">Luxe Staging</h1>
+            <h1 className="yachts-banner-description">Stage It - Sell It</h1>
           </div>
         </div>
         <div className="text-group">

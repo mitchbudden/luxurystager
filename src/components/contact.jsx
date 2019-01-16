@@ -13,7 +13,8 @@ class Contact extends Component {
         <Nav selected="Contact"/>
         <div className="contact-banner">
           <div className="contact-description-container">
-            <h1 className="contact-banner-description">Contact Us</h1>
+            <h1 className="homes-banner-description">Luxe Staging</h1>
+            <h1 className="yachts-banner-description">Stage It - Sell It</h1>
           </div>
         </div>
         <h1 className="contact-info">We are committed to helping you sell your property faster, for more money. 

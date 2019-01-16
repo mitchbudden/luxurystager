@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("../images/stock/staircase.jpg") no-repeat center center fixed;
+    url("../images/luxe/yacht-after-1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,7 +100,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("../images/stock/staircase.jpg") 70% 70%;
+        url("../images/luxe/yacht-after-1.jpeg") 70% 70%;
         height: 20em;
     }
 
@@ -115,7 +115,7 @@
 
 @media (max-width: 480px) {
     .about-description-container {
-        padding: 20% 30%;
+        padding: 10% 0% 0% -10%;
     }
 
     .about-banner-description {

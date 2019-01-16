@@ -1,8 +1,8 @@
 .homes-banner {
     background: 
     linear-gradient(
-      rgba(1, 13, 22, 0.80), 
-      rgba(1, 13, 22, 0.80)
+      rgba(1, 13, 22, 0.60), 
+      rgba(1, 13, 22, 0.60)
     ),
     url("../images/luxe/home-after-3.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -48,16 +48,37 @@
 
 .display-image {
     height: 23em;
-    width: 45%;
+    width: 85% !important;
     margin: 5%;
+}
+
+.image-title-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+
+.home-image-title {
+    font-size: 16px;
+    color: black;
+    font-family: 'Cinzel', serif;
+    width: 30px;
+    height: 20px;
+    margin-bottom: -60px;
+    text-align: center;
+    z-index: 1;
+    padding-left: 45%;
+    color: white; 
 }
 
 @media (max-width: 768px) { 
     .homes-banner {
         background: 
         linear-gradient(
-          rgba(1, 13, 22, 0.8), 
-          rgba(1, 13, 22, 0.8)
+          rgba(1, 13, 22, 0.6), 
+          rgba(1, 13, 22, 0.6)
         ),
         url("../images/luxe/home-after-3.jpeg") no-repeat 100% 0% fixed;
         height: 20em;
@@ -74,6 +95,11 @@
     .home-picture-group {
         flex-direction: column;
         align-content: center;
+    }
+
+    .image-title-group {
+        width: 75%;
+        margin-left: 10%;
     }
 
     .display-image {
@@ -98,5 +124,15 @@
 
     .display-image {
         height: 15em !important;
+        width: 100% !important;
+    }
+
+    .home-image-title {
+        margin-bottom: -35px;        
+    }
+
+    hr {
+        border: 1px solid grey;
+        width: 95%;
     }
 }

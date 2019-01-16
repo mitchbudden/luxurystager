@@ -23,28 +23,48 @@ class Home extends Component {
         </div>
         <div className="home-page-container">
           <div className="home-picture-group">
-            <img src={homeBeforeThree} 
-                className="display-image"
-                alt="before"/>
-            <img src={homeAfterThree} 
-                className="display-image"
-                alt="after"/>
+            <div className="image-title-group">
+              <h2 className="home-image-title">After</h2>
+              <img src={homeAfterThree} 
+                  className="display-image"
+                  alt="after"/>
+            </div>
+            <div className="image-title-group">
+              <h2 className="home-image-title">Before</h2> 
+              <img src={homeBeforeThree} 
+                  className="display-image"
+                  alt="before"/>
+            </div>
           </div>
+          <hr />
           <div className="home-picture-group">
-            <img src={homeBeforeTwo} 
-                className="display-image"
-                alt="before"/>
-            <img src={homeAfterTwo}
-                className="display-image"
-                alt="after"/>
+            <div className="image-title-group">
+              <h2 className="home-image-title">After</h2>              
+              <img src={homeAfterTwo}
+                  className="display-image"
+                  alt="after"/>
+            </div>
+            <div className="image-title-group">
+              <h2 className="home-image-title">Before</h2>              
+              <img src={homeBeforeTwo} 
+                  className="display-image"
+                  alt="before"/>
+            </div>
           </div>
+          <hr />          
           <div className="home-picture-group">
-            <img src={homeBeforeOne} 
-                className="display-image"
-                alt="before"/>
+          <div className="image-title-group">
+            <h2 className="home-image-title">After</h2> 
             <img src={homeAfterOne}
                 className="display-image"
                 alt="after"/>
+          </div>            
+          <div className="image-title-group">
+            <h2 className="home-image-title">Before</h2> 
+            <img src={homeBeforeOne} 
+                className="display-image"
+                alt="before"/>
+          </div>          
           </div>
         </div>
         <Footer />

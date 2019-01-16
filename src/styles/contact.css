@@ -4,7 +4,7 @@
       rgba(1, 13, 22, 0.60), 
       rgba(1, 13, 22, 0.60)
     ),
-    url("../images/stock/yacht-1.jpg") no-repeat center center fixed;
+    url("../images/luxe/yacht-zoom-1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,7 +57,7 @@
           rgba(1, 13, 22, 0.60), 
           rgba(1, 13, 22, 0.60)
         ),
-        url("../images/stock/yacht-1.jpg") 50% 50%;
+        url("../images/luxe/yacht-zoom-1.jpeg") 50% 50%;
         height: 20em;
     }
 
@@ -84,7 +84,7 @@
 @media (max-width: 480px) {
     
     .contact-description-container {
-        padding: 20% 30%;
+        padding: 10% 0% 0% -10%;
     }
 
     .contact-banner-description {
