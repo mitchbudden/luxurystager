@@ -22,21 +22,21 @@ class Yacht extends Component {
           <div className="yacht-picture-group">
             <div className="image-title-group">
               <h2 className="yacht-image-title">After</h2>
-              <img src={yachtBeforeOne}
+              <img src={yachtAfterOne}
                   className="display-image"
                   alt="before"/>
             </div>
             <div className="image-title-group">
-              <h2 className="yacht-image-title">Before</h2>              
-              <img src={yachtAfterOne}
+              <h2 className="yacht-image-title">After</h2>              
+              <img src={yachtZoom}
                   className="display-image"
                   alt="after"/>
             </div>
           </div>
           <div className="yacht-picture-group">
             <div className="image-title-group">
-              <h2 className="yacht-image-title">After</h2>              
-              <img src={yachtZoom}
+              <h2 className="yacht-image-title">Before</h2>              
+              <img src={yachtBeforeOne}
                   className="display-image"
                   alt="before"/>
             </div>

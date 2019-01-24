@@ -15,6 +15,10 @@ class Footer extends Component {
         <FontAwesomeIcon size="2x" icon="envelope" />
         <h1 className="contact-item">luxurystager@gmail.com</h1>
       </div>
+      <div className="contact-container">
+        <FontAwesomeIcon size="2x" icon="camera" />
+        <h1 className="contact-item">Instagram: luxeyachtandhomestaging</h1>
+      </div>
     </div>
     );
   }

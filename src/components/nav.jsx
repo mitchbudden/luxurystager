@@ -11,10 +11,10 @@ class Nav extends Component {
           <a href="/contact"><img src={logo} className="logo-nav" alt="Luxe Staging"/></a>
         </div>
         <div className="nav-group">
-        <a href="/about" 
+        <a href="/" 
             className={this.props.selected === "About" ? "selected-nav-item": "nav-item"}>
           About</a>
-          <a href="/" 
+          <a href="/homes" 
             className={this.props.selected === "Homes" ? "selected-nav-item": "nav-item"}>
           Homes</a>
           <a href="/yacht" 

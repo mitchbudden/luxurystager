@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from './nav';
 import Footer from './footer';
 import '../styles/about.css';
+import carolynPhoto from '../images/carolyn.jpeg';
 
 class About extends Component {
 
@@ -16,10 +17,14 @@ class About extends Component {
           </div>
         </div>
         <div className="text-group">
-          <h1 className="about-description">Carolyn Birger, President of Luxe Staging, is a certified staging professional,  a member of the International Yacht Brokers Association, as well as the Real Estate Staging Association. Our goal is to assist brokers by transforming interiors and exterieros to reflect a warm, fresh environment that buyers will want to experience.
-          At Luxe Staging, we help owners transform their properties to stand out from others by drawing attention to the fine craftsmanship and décor of the property.  It is proven that when staged properly, it will sell 83% faster and the seller will receive an average of 20% more money.
-          Luxe Staging will redesign interiors with existing furnishings, artwork and accessories to highlight the yachts architecture, OR we will bring in our own inventory to set the stage for a quick sale.  The longer a home or yacht is listed for sale, the less money received. 
-          </h1>
+          <img className="head-photo" src={carolynPhoto} alt="Carolyn Birger"/>
+          <ul>
+            <li className="about-description">Carolyn Birger, President of Luxe Staging, is a certified staging professional, a member of the International Yacht Brokers Association, as well as the Real Estate Staging Association.</li>
+            <li className="about-description">Our goal is to assist brokers by transforming interiors and exterieros to reflect a warm, fresh environment that buyers will want to experience.</li>
+            <li className="about-description"> At Luxe Staging, we help owners transform their properties to stand out from others by drawing attention to the fine craftsmanship and décor of the property.</li>
+            <li className="about-description"> It is proven that when staged properly, it will sell 83% faster and the seller will receive an average of 20% more money.</li>
+            <li className="about-description">Luxe Staging will redesign interiors with existing furnishings, artwork and accessories to highlight the yachts architecture, OR we will bring in our own inventory to set the stage for a quick sale.  The longer a home or yacht is listed for sale, the less money received.</li>
+          </ul>
         </div>
         <div className="text-group">
           <h1 className="about-description-bold">Our Services:</h1>

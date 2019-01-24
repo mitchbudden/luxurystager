@@ -7,17 +7,17 @@ import Contact from "./components/contact.jsx";
 import About from "./components/about.jsx";
 import { Provider } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faCamera } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faPhone, faEnvelope);
+library.add(faPhone, faEnvelope, faCamera);
 
 ReactDOM.render(
   <Provider>
     <Router path="/" history={browserHistory}>
-      <Route path="/" component={Home} />
+      <Route path="/homes" component={Home} />
       <Route path="/yacht" component={Yacht} />
       <Route path="/contact" component={Contact} />
-      <Route path="/about" component={About} />
+      <Route path="/" component={About} />
     </Router>
   </Provider>,
   document.getElementById("root")

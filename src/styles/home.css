@@ -50,6 +50,7 @@
     height: 23em;
     width: 85% !important;
     margin: 5%;
+    padding: 0% 10%;
 }
 
 .image-title-group {
@@ -71,6 +72,25 @@
     z-index: 1;
     padding-left: 45%;
     color: white; 
+}
+
+@media (max-width: 2200px) { 
+    .home-image-title {
+        margin-bottom: -70px;
+    }
+}
+
+@media (max-width: 1800px) { 
+    .display-image {
+        height: 23em;
+        width: 85% !important;
+        margin: 5%;
+        padding: 0% 5%;
+    }
+
+    .home-image-title {
+        margin-bottom: -60px;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -104,6 +124,7 @@
 
     .display-image {
         width: 90% !important;
+        padding: 0%;
     }
 }
 
@@ -128,7 +149,12 @@
     }
 
     .home-image-title {
-        margin-bottom: -35px;        
+        margin-bottom: -45px;        
+    }
+
+    .image-title-group {
+        width: 95%;
+        margin-left: -5px;
     }
 
     hr {
